@@ -1,0 +1,5 @@
+@import "root.css";
+
+i:first-child {
+  color: var(--background-color);
+}
