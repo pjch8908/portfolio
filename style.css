@@ -11,11 +11,18 @@ a {
   color: var(--color-white);
 }
 
+button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
 /* navbar */
 
 #navbar {
   display: flex;
-  background-color: var(--color-black);
+  background-color: var(--color-bright-red);
   justify-content: space-between;
   align-items: center;
   padding: 16px;
@@ -44,4 +51,34 @@ a {
 
 .navbar__menu__item:hover {
   background-color: var(--color-dark-grey);
+}
+
+/* home */
+
+#home {
+  background: url("imgs/porfolio-background.png") no-repeat center/cover;
+  padding: 40px;
+  text-align: center;
+}
+
+.home__avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 2px solid var(--color-light-white);
+}
+
+.home__title,
+.home__description {
+  color: var(--color-white);
+}
+
+.home__contact {
+  color: var(--color-white);
+  font-size: var(--font-regular);
+  font-weight: var(--weight-regular);
+  margin: 24px;
+  padding: 8px 12px;
+  border: 2px solid var(--color-white);
+  border-radius: var(--size-border-radius);
 }
