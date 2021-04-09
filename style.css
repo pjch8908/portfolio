@@ -133,3 +133,39 @@ button {
   color: var(--color-orange);
   transform: rotate(25deg) scale(1.15);
 }
+
+.about__job {
+  margin: 20px 0;
+}
+
+.line,
+.google {
+  color: var(--color-bright-red);
+}
+
+.job__icon {
+  font-size: 80px;
+}
+
+.job {
+  display: flex;
+  align-items: center;
+}
+
+.job__description {
+  margin: 0px 16px;
+  text-align: left;
+}
+
+.job__name,
+.job__period {
+  color: var(--color-light-grey);
+}
+
+.job__name {
+  font-size: var(--font-small);
+}
+
+.job__period {
+  font-size: var(--font-micro);
+}
