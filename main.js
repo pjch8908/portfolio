@@ -1,3 +1,5 @@
+"use strict";
+
 const navbar = document.querySelector("#navbar");
 const navbarHeight = navbar.getBoundingClientRect().height;
 
